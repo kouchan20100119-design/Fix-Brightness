@@ -1,4 +1,4 @@
-# Fix Brightness for ASUS laptops(Nvidia GPU)
+# Fix Display Brightness for ASUS laptops(Nvidia GPU)
 
 A small utility to fix the brightness control issue
 when switching to dGPU mode using G-Helper on
