@@ -17,16 +17,16 @@ function Restart-NvidiaService {
         Start-Service "NvContainerLocalSystem" -ErrorAction SilentlyContinue
         
         [System.Windows.Forms.MessageBox]::Show(
-            "NVIDIA サービスを再起動しました",
-            "完了",
+            "Restarted the NVIDIA service",
+            "Completion",
             "OK",
             "Information"
         )
     }
     catch {
         [System.Windows.Forms.MessageBox]::Show(
-            "サービスの再起動に失敗しました:`n$($_.Exception.Message)",
-            "エラー",
+            "Service restart failed:`n$($_.Exception.Message)",
+            "Error",
             "OK",
             "Error"
         )
